@@ -9,7 +9,7 @@ prompt_template = ChatPromptTemplate.from_messages([
         Convert the user's business process into a workflow.
 
         Rules:
-        - Generate 4 to 8 logical steps.
+        - Generate 4 to as many it required logical steps.
         - Use unique IDs such as step-1, step-2.
         - Assign sequential order starting at 1.
         - Use only these types:
